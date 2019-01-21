@@ -1,4 +1,4 @@
-# webcrawlerT
+# WebCrawler
 The project scrapes information about books from the flipkart website - Title , description and ratings and stores in a json file.
 
 Steps to follow :
