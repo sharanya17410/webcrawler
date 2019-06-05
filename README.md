@@ -1,6 +1,6 @@
 # WebCrawler
 The project scrapes information about books from the flipkart website - Title , description and ratings and stores in a json file.
-
+The stored information is then used to run a ranking algorithm which helps us rank the books based on the reviews and rating.
 Steps to follow :
 
 1. Load the library selenium using pip install -U selenium from your command prompt
@@ -10,4 +10,5 @@ Steps to follow :
 5. Once the project starts running all the links to the books are stored in the file books.txt
 6. Each link is picked up and information about each and every book is stored in a json file
 7. The empty bookdetails.json file now has all the information about the books that has been scraped.
+8. Run Ranking.py to run the tf-idf ranking algorithm
 
